@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <openLink> = (open link);
+public <close> = (ya|no) ;
+public <create> = (create component) (input field|radio|drop down|link|check box|button);
+public <end> = (path) ;

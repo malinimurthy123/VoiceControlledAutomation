@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar File
+ */
+
+grammar hello;
+
+public <close> = (end) ;
+public <ya> = (ya);
+public <no> = (no);
+public <create> = (create component)(input field|radio|drop down|link|check box|button)(by)(ID|PATH);
